@@ -74,7 +74,7 @@
 
         <!-- Mobile SVG -->
         <div class="mx-auto px-4 md:px-0 md:hidden">
-          <svg viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-[300px] w-full">
+          <svg viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-[350px] w-[120%] -ml-[10%]">
             <!-- Grid Background -->
             <pattern id="smallGridMobile" width="8" height="8" patternUnits="userSpaceOnUse">
               <path d="M 8 0 L 0 0 0 8" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"/>
@@ -83,10 +83,10 @@
               <rect width="40" height="40" fill="url(#smallGridMobile)"/>
               <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
             </pattern>
-            <rect width="400" height="400" fill="url(#gridMobile)"/>
+            <rect width="500" height="500" fill="url(#gridMobile)"/>
 
             <!-- Centered Single View - adjusted transform -->
-            <g transform="translate(75, 75) scale(1)">
+            <g transform="translate(125, 100) scale(1.2)">
               <!-- Main Shape -->
               <path d="M50 50 L200 50 L200 200 L50 200 Z" stroke="white" stroke-width="1.5" fill="none"/>
               <path d="M50 50 L80 20 L230 20 L200 50" stroke="white" stroke-width="1.5" fill="none"/>
@@ -104,10 +104,10 @@
             </g>
 
             <!-- Label - adjusted y position -->
-            <text x="200" y="280" fill="white" font-size="12" text-anchor="middle">FRONT ELEVATION</text>
+            <text x="250" y="380" fill="white" font-size="12" text-anchor="middle">FRONT ELEVATION</text>
 
             <!-- Scale Indicator - adjusted position -->
-            <g transform="translate(150, 310)">
+            <g transform="translate(200, 410)">
               <line x1="0" y1="0" x2="100" y2="0" stroke="white" stroke-width="1"/>
               <line x1="0" y1="-5" x2="0" y2="5" stroke="white" stroke-width="1"/>
               <line x1="100" y1="-5" x2="100" y2="5" stroke="white" stroke-width="1"/>
