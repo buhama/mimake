@@ -1,11 +1,9 @@
 <!-- App.vue -->
 <template>
   <div class="w-screen min-h-screen bg-[#1a1919] p-8 md:p-24 md:pt-48">
-  
-
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center max-w-7xl mx-auto">
-      <div class="relative order-2 md:order-1">
-        <div class="w-64 h-64 md:w-[400px] md:h-[400px] mx-auto">
+    <div class="flex flex-col md:flex-row gap-8 items-center max-w-7xl mx-auto">
+      <div class="relative order-2 md:order-1 md:w-1/2">
+        <div class="mx-auto">
           <svg viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-full w-full">
             <defs>
               <linearGradient
@@ -29,7 +27,7 @@
         </div>
       </div>
 
-      <div class="order-1 md:order-2">
+      <div class="order-1 md:order-2 md:w-1/2">
         <div class="flex">
           <div class="flex items-center gap-2">
             <span class="text-lg font-medium text-purple-500">MiMake</span>
@@ -38,10 +36,10 @@
             </span>
           </div>
         </div>
-        <h1 class="text-6xl md:text-7xl lg:text-8xl font-normal mb-1 text-white font-display">
+        <h1 class="text-7xl font-normal mb-1 text-white font-display">
           Mississauga's
         </h1>
-        <p class="text-6xl md:text-5xl lg:text-5xl font-normal text-white font-serif mb-8">
+        <p class="text-6xl font-normal text-white font-serif mb-8">
           Industrial Makerspace
         </p>
         <p class="text-xl text-white/90 mb-12 max-w-xl">
