@@ -168,7 +168,7 @@
               <i class="fa-brands fa-linkedin text-2xl"></i>
             </a>
           </div>
-          <p class="text-white/50 text-sm">© 2024 MiMake. All rights reserved.</p>
+          <p class="text-white/50 text-sm">© 2025 MiMake. All rights reserved.</p>
         </div>
       </div>
     </footer>
