@@ -1,7 +1,9 @@
 <!-- App.vue -->
 <template>
-  <div class="w-screen min-h-screen bg-[#1a1919] pt-6 md:pt-10">
-    <div class="flex flex-col gap-8 items-center max-w-7xl mx-auto">
+  <div class="w-screen min-h-screen bg-[#1a1919] pt-6 md:pt-10 relative">
+    <!-- Add texture overlay -->
+    <div class="absolute inset-0 opacity-[0.12] pointer-events-none" style="background-image: url('data:image/svg+xml,%3Csvg width=\'30\' height=\'30\' viewBox=\'0 0 30 30\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Ccircle cx=\'15\' cy=\'15\' r=\'0.7\' fill=\'%23ffffff\'/%3E%3C/svg%3E');"></div>
+    <div class="flex flex-col gap-8 items-center max-w-7xl mx-auto relative">
       <div class="relative order-1 w-full mt-8 md:mt-0">
         <!-- Add gradient overlay -->
         <div class="absolute inset-x-0 bottom-0 h-32 md:h-64 bg-gradient-to-t from-[#1a1919] to-transparent"></div>
@@ -133,15 +135,43 @@
           Get access to advanced tools, expert training, and a collaborative community.
         </p>
         <div class="flex flex-col md:flex-row items-center justify-center gap-4 px-0">
-          <button class="w-full md:w-auto flex bg-white items-center justify-center rounded-full bg-white px-8 py-4 text-base md:text-lg font-medium text-black transition hover:bg-white/90">
-            Get in touch
-            <svg class="ml-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-            </svg>
-          </button>
+          <a href="mailto:info@mimake.ca" class="w-full md:w-auto" target="_blank" rel="noopener noreferrer">
+            <button class="w-full md:w-auto flex bg-white items-center justify-center rounded-full bg-white px-8 py-4 text-base md:text-lg font-medium text-black transition hover:bg-white/90">
+              Get in touch
+              <svg class="ml-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+              </svg>
+            </button>
+          </a>
         </div>
       </div>
     </div>
+
+    <!-- Footer -->
+    <footer class="w-full py-8 mt-16 border-t border-white/10">
+      <div class="max-w-7xl mx-auto px-4 md:px-0">
+        <div class="flex flex-col items-center gap-4">
+          <div class="flex items-center gap-6">
+            <a href="https://instagram.com/mimakehq" target="_blank" rel="noopener noreferrer" class="text-white/70 hover:text-white transition-colors">
+              <i class="fa-brands fa-instagram text-2xl"></i>
+            </a>
+            <a href="https://facebook.com/mimakehq" target="_blank" rel="noopener noreferrer" class="text-white/70 hover:text-white transition-colors">
+              <i class="fa-brands fa-facebook text-2xl"></i>
+            </a>
+            <a href="https://x.com/mimakehq" target="_blank" rel="noopener noreferrer" class="text-white/70 hover:text-white transition-colors">
+              <i class="fa-brands fa-x-twitter text-2xl"></i>
+            </a>
+            <a href="https://www.tiktok.com/@mimakehq" target="_blank" rel="noopener noreferrer" class="text-white/70 hover:text-white transition-colors">
+              <i class="fa-brands fa-tiktok text-2xl"></i>
+            </a>
+            <a href="https://www.linkedin.com/company/mimakehq/" target="_blank" rel="noopener noreferrer" class="text-white/70 hover:text-white transition-colors">
+              <i class="fa-brands fa-linkedin text-2xl"></i>
+            </a>
+          </div>
+          <p class="text-white/50 text-sm">© 2024 MiMake. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
   </div>
 </template>
 
@@ -150,6 +180,9 @@
 </script>
 
 <style>
+/* Font Awesome Import */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+
 /* Updated font imports */
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;700&family=Playfair+Display:ital@0;1&family=Space+Grotesk:wght@400;500;600&display=swap');
 
