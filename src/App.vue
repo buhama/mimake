@@ -47,15 +47,15 @@
           Get access to advanced tools, expert training, and a collaborative community.
         </p>
         <div class="flex flex-col sm:flex-row gap-4">
-          <button class="flex items-center justify-center rounded-full bg-white px-8 py-4 font-medium text-black transition hover:bg-white/90">
-            Join our community 
+          <button class="flex bg-white items-center justify-center rounded-full bg-white px-8 py-4 font-medium text-black transition hover:bg-white/90">
+            Get in touch
             <svg class="ml-2 h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
             </svg>
           </button>
-          <button class="flex items-center justify-center rounded-full border border-white/20 px-8 py-4 font-medium text-white transition hover:bg-white/10">
+          <!-- <button class="flex items-center justify-center rounded-full border border-white/20 px-8 py-4 font-medium text-white transition hover:bg-white/10">
             Learn more
-          </button>
+          </button> -->
         </div>
       </div>
     </div>
